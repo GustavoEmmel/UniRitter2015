@@ -5,8 +5,7 @@ namespace UniRitter.UniRitter2015.Models
 {
     public class PersonModel: IModel
     {
-        //Person Model
-		public Guid? id { get; set; }
+        public Guid? id { get; set; }
 
         [Required]
         [MaxLength(50, ErrorMessage = "Tamanho maximo de 50 caracteres")]

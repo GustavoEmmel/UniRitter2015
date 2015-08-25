@@ -5,8 +5,7 @@ namespace UniRitter.UniRitter2015.Models
 {
     public class CommentModel : IModel
     {
-        //Comment Model
-		public Guid? id { get; set; }
+        public Guid? id { get; set; }
 
         [Required]
         [MaxLength(4000, ErrorMessage = "Tamanho maximo de 4000 caracteres")]

@@ -6,7 +6,8 @@ namespace UniRitter.UniRitter2015.Models
 {
     public class PostModel : IModel
     {
-        public Guid? id { get; set; }
+        //PostModel
+		public Guid? id { get; set; }
 
         [Required]
         [MaxLength(4000, ErrorMessage = "Tamanho maximo de 4000 caracteres")]
